@@ -1,0 +1,46 @@
+body {
+  background: #212529; 
+  margin: 0; 
+  padding: 0; 
+}
+
+#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+}
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; 
+  object-fit: contain;
+}
+
+.card{
+  background-color: #1c1816;
+  color: white;
+  box-shadow: 0 2px 8px 0 #63636333;
+}
+.navbarrow{
+  margin-top: 10px;
+}
+.addToCart{
+  bottom: -47px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.cartButton{
+  white-space: nowrap;
+  background-color: #ea002a;
+  color: white;
+  font-weight: bold;
+}
+.cartButton:hover{
+  background-color: white;
+  color: #ea002a;
+}
+.card{
+  cursor: pointer;
+}
